@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables 
+.env
+.env.local
+.env.*.local
+
+# Build output for Node.js 
+dist/
+build/
+
+# Flutter build and tool files
+**/build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+*.iml
+*.hprof
+
+# Android specific
+android/.gradle/
+android/app/build/
+
+# iOS specific
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+
+# IDE or Editor folders
+.vscode/
+.idea/
+.history/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Log files
+logs/
+*.log
+
+# Docker Compose override (if used for local overrides)
+docker-compose.override.yml
